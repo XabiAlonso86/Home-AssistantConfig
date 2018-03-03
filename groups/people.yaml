@@ -1,0 +1,8 @@
+# Grupo para presencia gente
+people:
+  name: Gente
+  entities:
+    - device_tracker.xabisiphone
+    - device_tracker.iphone
+    - device_tracker.iphoneddemetrio
+    - device_tracker.edusiphone

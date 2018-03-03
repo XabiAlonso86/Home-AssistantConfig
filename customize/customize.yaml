@@ -1,0 +1,49 @@
+# Luz Xiaomi
+light.yeelight_rgb_7811dc6b7258:
+  friendly_name: Luz_Javi
+
+# Traducción Sensor Temperatura
+sensor.yr_temperature:
+  friendly_name: Temperatura
+sensor.yr_precipitation:
+  friendly_name: Lluvia
+  icon: mdi:water
+sensor.yr_wind_speed:
+  friendly_name: Velocidad del Viento
+  icon: mdi:speedometer
+sensor.yr_pressure:
+  friendly_name: Presion
+sensor.yr_wind_direction:
+  friendly_name: Direccion del Viento
+  icon: mdi:weather-windy
+sensor.yr_humidity:
+  friendly_name: Humedad
+  icon: mdi:water-percent
+sensor.yr_cloudiness:
+  friendly_name: Nubosidad
+  icon: mdi:apple-mobileme
+sensor.yr_symbol:
+  friendly_name: Alcala de Henares
+sun.sun:
+  friendly_name: Posición del Sol
+
+# Gateway Xiaomi
+light.gateway_light_7811dcb067f9:
+  friendly_name: Xiaomi_GW2
+  homebridge_visible: true
+# Hago visible todos los dispositivos
+group.all_devices:
+  hidden: false
+
+# Pihole
+sensor.pihole_ads_percentage_blocked_today:
+  friendly_name: Porcentaje Anuncios Bloqueados Hoy
+  entity_picture: /local/porcentaje.png
+sensor.pihole_ads_blocked_today:
+  friendly_name: Anuncios Bloqueados Hoy
+  entity_picture: /local/adds.jpg
+sensor.pihole_dns_queries_today:
+  friendly_name: Consultas DNS Hoy
+  entity_picture: /local/dns.png
+switch.pihole_switch:
+  friendly_name: Off / ON Anuncios

@@ -1,0 +1,12 @@
+# Grupo Tiempo
+weather:
+  name: Tiempo
+  entities:
+    - sensor.yr_symbol
+    - sensor.yr_temperature
+    - sensor.yr_precipitation
+    - sensor.yr_wind_speed
+    - sensor.yr_wind_direction
+    - sensor.yr_humidity
+    - sensor.yr_cloudiness
+    - sun.sun

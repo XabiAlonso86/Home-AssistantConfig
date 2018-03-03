@@ -1,0 +1,37 @@
+pihole:
+  name: Pi-Hole
+  entities:
+    - switch.pihole_switch
+    - sensor.pihole_ads_percentage_blocked_today
+    - sensor.pihole_ads_blocked_today
+    - sensor.pihole_dns_queries_today
+
+# Grupo Tiempo
+weather:
+  name: Tiempo
+  entities:
+    - sensor.yr_symbol
+    - sun.sun
+    - sensor.yr_temperature
+    - sensor.yr_precipitation
+    - sensor.yr_wind_speed
+    - sensor.yr_wind_direction
+    - sensor.yr_humidity
+    - sensor.yr_cloudiness
+
+# Grupo Speedtest
+speedtest:
+  name: Conexion
+  entities:
+    - sensor.speedtest_ping
+    - sensor.speedtest_download
+    - sensor.speedtest_upload
+
+# Grupo para presencia gente
+people:
+  name: Gente
+  entities:
+    - device_tracker.xabisiphone
+    - device_tracker.iphone
+    - device_tracker.iphoneddemetrio
+    - device_tracker.edusiphone

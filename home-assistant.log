@@ -1,0 +1,94 @@
+2018-03-03 17:54:49 ERROR (MainThread) [aiohttp.access] Error in logging
+Traceback (most recent call last):
+  File "/srv/homeassistant/lib/python3.5/site-packages/homeassistant/components/websocket_api.py", line 335, in handle
+    msg = yield from wsock.receive_json()
+  File "/srv/homeassistant/lib/python3.5/site-packages/aiohttp/web_ws.py", line 337, in receive_json
+    data = yield from self.receive_str(timeout=timeout)
+  File "/srv/homeassistant/lib/python3.5/site-packages/aiohttp/web_ws.py", line 319, in receive_str
+    msg = yield from self.receive(timeout)
+  File "/srv/homeassistant/lib/python3.5/site-packages/aiohttp/web_ws.py", line 282, in receive
+    msg = yield from self._reader.read()
+  File "/srv/homeassistant/lib/python3.5/site-packages/aiohttp/streams.py", line 672, in read
+    return (yield from super().read())
+  File "/srv/homeassistant/lib/python3.5/site-packages/aiohttp/streams.py", line 554, in read
+    yield from self._waiter
+  File "/usr/lib/python3.5/asyncio/futures.py", line 380, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 304, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 285, in result
+    raise CancelledError
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/homeassistant/lib/python3.5/site-packages/aiohttp/helpers.py", line 559, in __get__
+    return inst._cache[self.name]
+KeyError: 'remote'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/homeassistant/lib/python3.5/site-packages/aiohttp/helpers.py", line 526, in log
+    for key, value in fmt_info:
+  File "/srv/homeassistant/lib/python3.5/site-packages/aiohttp/helpers.py", line 518, in <genexpr>
+    for key, method in self._methods)
+  File "/srv/homeassistant/lib/python3.5/site-packages/aiohttp/helpers.py", line 478, in _format_a
+    ip = request.remote
+  File "/srv/homeassistant/lib/python3.5/site-packages/aiohttp/helpers.py", line 561, in __get__
+    val = self.wrapped(inst)
+  File "/srv/homeassistant/lib/python3.5/site-packages/aiohttp/web_request.py", line 321, in remote
+    peername = transport.get_extra_info('peername')
+  File "/usr/lib/python3.5/asyncio/sslproto.py", line 306, in get_extra_info
+    return self._ssl_protocol._get_extra_info(name, default)
+  File "/usr/lib/python3.5/asyncio/sslproto.py", line 546, in _get_extra_info
+    return self._transport.get_extra_info(name, default)
+AttributeError: 'NoneType' object has no attribute 'get_extra_info'
+2018-03-03 18:20:58 ERROR (Thread-19) [homeassistant.components.light.yeelight] Error when calling <function YeelightLight.set_default at 0x5f9b3468>: {'code': -5000, 'message': 'general error'}
+2018-03-03 18:45:11 ERROR (MainThread) [aiohttp.access] Error in logging
+Traceback (most recent call last):
+  File "/srv/homeassistant/lib/python3.5/site-packages/aiohttp/helpers.py", line 559, in __get__
+    return inst._cache[self.name]
+KeyError: 'remote'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/homeassistant/lib/python3.5/site-packages/aiohttp/helpers.py", line 526, in log
+    for key, value in fmt_info:
+  File "/srv/homeassistant/lib/python3.5/site-packages/aiohttp/helpers.py", line 518, in <genexpr>
+    for key, method in self._methods)
+  File "/srv/homeassistant/lib/python3.5/site-packages/aiohttp/helpers.py", line 478, in _format_a
+    ip = request.remote
+  File "/srv/homeassistant/lib/python3.5/site-packages/aiohttp/helpers.py", line 561, in __get__
+    val = self.wrapped(inst)
+  File "/srv/homeassistant/lib/python3.5/site-packages/aiohttp/web_request.py", line 321, in remote
+    peername = transport.get_extra_info('peername')
+  File "/usr/lib/python3.5/asyncio/sslproto.py", line 306, in get_extra_info
+    return self._ssl_protocol._get_extra_info(name, default)
+  File "/usr/lib/python3.5/asyncio/sslproto.py", line 546, in _get_extra_info
+    return self._transport.get_extra_info(name, default)
+AttributeError: 'NoneType' object has no attribute 'get_extra_info'
+2018-03-03 22:46:24 ERROR (MainThread) [homeassistant.core] Timer got out of sync. Resetting
+2018-03-03 23:03:33 ERROR (Thread-7) [homeassistant.components.light.yeelight] Error when calling <function YeelightLight.set_default at 0x5f9b3468>: {'code': -5000, 'message': 'general error'}
+2018-03-03 23:03:36 ERROR (Thread-13) [homeassistant.components.light.yeelight] Error when calling <function YeelightLight.set_default at 0x5f9b3468>: {'code': -5000, 'message': 'general error'}
+2018-03-03 23:03:37 ERROR (Thread-11) [homeassistant.components.light.yeelight] Error when calling <function YeelightLight.set_default at 0x5f9b3468>: {'code': -5000, 'message': 'general error'}
+2018-03-03 23:03:38 ERROR (Thread-21) [homeassistant.components.light.yeelight] Error when calling <function YeelightLight.set_default at 0x5f9b3468>: {'code': -5000, 'message': 'general error'}
+2018-03-03 23:03:39 ERROR (Thread-18) [homeassistant.components.light.yeelight] Error when calling <function YeelightLight.set_default at 0x5f9b3468>: {'code': -5000, 'message': 'general error'}
+2018-03-03 23:03:41 ERROR (Thread-15) [homeassistant.components.light.yeelight] Error when calling <function YeelightLight.set_default at 0x5f9b3468>: {'code': -5000, 'message': 'general error'}
+2018-03-03 23:03:42 ERROR (Thread-17) [homeassistant.components.light.yeelight] Error when calling <function YeelightLight.set_default at 0x5f9b3468>: {'code': -5000, 'message': 'general error'}
+2018-03-03 23:03:42 ERROR (Thread-8) [homeassistant.components.light.yeelight] Error when calling <function YeelightLight.set_default at 0x5f9b3468>: {'code': -5000, 'message': 'general error'}
+2018-03-03 23:03:45 ERROR (Thread-14) [homeassistant.components.light.yeelight] Error when calling <function YeelightLight.set_default at 0x5f9b3468>: {'code': -5000, 'message': 'general error'}
+2018-03-03 23:03:46 ERROR (Thread-16) [homeassistant.components.light.yeelight] Error when calling <function YeelightLight.set_default at 0x5f9b3468>: {'code': -5000, 'message': 'general error'}
+2018-03-03 23:03:47 ERROR (Thread-12) [homeassistant.components.light.yeelight] Error when calling <function YeelightLight.set_default at 0x5f9b3468>: {'code': -5000, 'message': 'general error'}
+2018-03-03 23:03:47 ERROR (Thread-19) [homeassistant.components.light.yeelight] Error when calling <function YeelightLight.set_default at 0x5f9b3468>: {'code': -5000, 'message': 'general error'}
+2018-03-03 23:03:49 ERROR (Thread-5) [homeassistant.components.light.yeelight] Error when calling <function YeelightLight.set_default at 0x5f9b3468>: {'code': -5000, 'message': 'general error'}
+2018-03-03 23:03:50 ERROR (Thread-18) [homeassistant.components.light.yeelight] Error when calling <function YeelightLight.set_default at 0x5f9b3468>: {'code': -5000, 'message': 'general error'}
+2018-03-03 23:03:50 ERROR (Thread-15) [homeassistant.components.light.yeelight] Error when calling <function YeelightLight.set_default at 0x5f9b3468>: {'code': -1, 'message': 'client quota exceeded'}
+2018-03-03 23:03:50 ERROR (Thread-2) [homeassistant.components.light.yeelight] Unable to update bulb status: {'code': -1, 'message': 'client quota exceeded'}
+2018-03-03 23:04:13 ERROR (Thread-14) [homeassistant.components.light.yeelight] Error when calling <function YeelightLight.set_default at 0x5f9b3468>: {'code': -5000, 'message': 'general error'}
+2018-03-03 23:04:16 ERROR (Thread-7) [homeassistant.components.light.yeelight] Error when calling <function YeelightLight.set_default at 0x5f9b3468>: {'code': -5000, 'message': 'general error'}
+2018-03-03 23:04:20 ERROR (Thread-6) [homeassistant.components.light.yeelight] Error when calling <function YeelightLight.set_default at 0x5f9b3468>: {'code': -5000, 'message': 'general error'}
+2018-03-03 23:04:21 ERROR (Thread-11) [homeassistant.components.light.yeelight] Error when calling <function YeelightLight.set_default at 0x5f9b3468>: {'code': -5000, 'message': 'general error'}
+2018-03-03 23:04:26 ERROR (Thread-10) [homeassistant.components.light.yeelight] Error when calling <function YeelightLight.set_default at 0x5f9b3468>: {'code': -5000, 'message': 'general error'}

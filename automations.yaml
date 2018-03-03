@@ -1,0 +1,10 @@
+- id: one
+  alias: Apagar Luz Xabi
+  trigger:
+    - platform: state
+      entity_id: device_tracker.xabisiphone
+      to: 'not home'
+  action:
+    - service: light.turn_off
+      data:
+        entity_id: light.Luz_Javi

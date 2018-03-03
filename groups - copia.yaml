@@ -1,0 +1,106 @@
+# Sala Por Defecto
+default_view:
+  name: Defecto
+  view: yes
+  entities:
+    - group.all_devices
+    - group.speedtest
+# Vision General de quien hay en casa y el tiempo
+casa:
+  name: Casa
+  view: yes
+  entities:
+    - group.people
+    - group.weather
+# salon
+salon:
+  name: Salon
+  view: yes
+  entities:
+    - device_tracker.84a466e915c4 #Television Samsung
+
+# Cuarto de estar
+cuartoestar:
+  name: Cuarto de Estar
+  view: yes
+  entities:
+    - media_player.apple_tv
+    - remote.apple_tv
+
+# Cocina
+cocina:
+  name: Cocina
+  view: yes
+
+# Pasillo
+pasillo:
+  name: Pasillo
+  view: yes
+  entities:
+    - device_tracker.lumigatewayv3_miio78330963
+
+# Habitacion javi
+javi:
+  name: Habitacion Javi
+  view: yes
+  entities:
+    - light.yeelight_rgb_7811dc6b7258
+    - media_player.xabipc
+
+# Habitacion edu
+edu:
+  name: Habitacion Edu
+  view: yes
+  entities:
+    - media_player.eduardos_ipad
+    - group.pihole
+    - sensor.pihole_ads_percentage_blocked_today
+    - sensor.pihole_ads_blocked_today
+    - sensor.pihole_dns_queries_today
+
+# Habitacion Padres
+padres:
+  name: Habitacion Padres
+  view: yes
+  entities:
+    - media_player.chromecastmama
+
+# Grupo Pihole
+pihole:
+  name: Pi-Hole
+  view: no
+  entities:
+    - switch.pihole_switch
+    - sensor.pihole_ads_percentage_blocked_today
+    - sensor.pihole_ads_blocked_today
+    - sensor.pihole_dns_queries_today
+
+# Grupo para presencia gente
+people:
+  name: Gente
+  entities:
+    - device_tracker.xabisiphone
+    - device_tracker.iphone
+    - device_tracker.iphoneddemetrio
+    - device_tracker.edusiphone
+
+# Grupo Speedtest
+speedtest:
+  name: Conexion
+  entities:
+    - sensor.speedtest_ping
+    - sensor.speedtest_download
+    - sensor.speedtest_upload
+
+# Grupo Tiempo
+weather:
+  name: Tiempo
+  entities:
+    - sensor.yr_symbol
+    - sensor.yr_temperature
+    - sensor.yr_precipitation
+    - sensor.yr_wind_speed
+    - sensor.yr_wind_direction
+    - sensor.yr_humidity
+    - sensor.yr_cloudiness
+    - sun.sun

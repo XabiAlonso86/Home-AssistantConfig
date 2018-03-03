@@ -1,0 +1,11 @@
+# Weather prediction
+- platform: yr
+  forecast: 24
+  monitored_conditions:
+    - temperature
+    - symbol
+    - precipitation
+    - windSpeed
+    - windDirection
+    - humidity
+    - cloudiness

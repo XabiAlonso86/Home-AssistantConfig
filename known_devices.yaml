@@ -1,0 +1,252 @@
+
+brw0080927b51ff:
+  hide_if_away: false
+  icon:
+  mac: 00:80:92:7B:51:FF
+  name: BRW0080927B51FF
+  picture:
+  track: false
+  vendor: Silex Technology, Inc.
+
+yeelinklightcolor1_miio72986661:
+  hide_if_away: false
+  icon:
+  mac: 78:11:DC:6B:72:58
+  name: yeelink-light-color1 miio72986661
+  picture:
+  track: false
+  vendor: XIAOMI Electronics,CO.,LTD
+
+appletv:
+  hide_if_away: false
+  icon: mdi:apple
+  mac: 40:CB:C0:E0:42:06
+  name: Apple-TV
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+0017108daf0e:
+  hide_if_away: false
+  icon:
+  mac: 00:17:10:8D:AF:0E
+  name: 0017108daf0e
+  picture:
+  track: false
+  vendor: Casa Systems Inc.
+
+b827eb0d4dba:
+  hide_if_away: false
+  icon: mdi:raspberrypi
+  mac: B8:27:EB:0D:4D:BA
+  name: b827eb0d4dba
+  picture:
+  track: false
+  vendor: Raspberry Pi Foundation
+
+digibit003293:
+  hide_if_away: false
+  icon:
+  mac: 00:24:A6:00:32:93
+  name: DIGIBIT-003293
+  picture:
+  track: false
+  vendor: TELESTAR DIGITAL GmbH
+
+hpproliantg8:
+  hide_if_away: false
+  icon: mdi:server
+  mac: 00:FD:45:FD:5D:70
+  name: HP-Proliant-G8
+  picture:
+  track: false
+  vendor: Hewlett Packard Enterprise
+
+84a466e915c4:
+  hide_if_away: false
+  icon: mdi:television
+  mac: 84:A4:66:E9:15:C4
+  name: Samsung TV
+  picture:
+  track: false
+  vendor: Samsung Electronics Co.,Ltd
+
+hassio:
+  hide_if_away: false
+  icon: mdi:raspberrypi
+  mac: B8:27:EB:8E:F9:2A
+  name: hassio
+  picture:
+  track: false
+  vendor: Raspberry Pi Foundation
+
+marantzsr7011:
+  hide_if_away: false
+  icon:
+  mac: 00:05:CD:72:9E:3E
+  name: Marantz-SR7011
+  picture:
+  track: false
+  vendor: D&M Holdings Inc.
+
+xabipc:
+  hide_if_away: false
+  icon:
+  mac: D0:50:99:27:A7:F4
+  name: XABI-PC
+  picture:
+  track: false
+  vendor: ASRock Incorporation
+
+demetriopc:
+  hide_if_away: false
+  icon:
+  mac: 00:25:22:E7:0F:D7
+  name: DEMETRIO-PC
+  picture:
+  track: false
+  vendor: ASRock Incorporation
+
+iphoneddemetrio:
+  hide_if_away: false
+  icon: mdi:cellphone-iphone
+  mac: 68:64:4B:E8:4B:FF
+  name: Papa
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+xabisiphone:
+  hide_if_away: false
+  icon: mdi:cellphone-iphone
+  mac: F0:98:9D:BF:DE:94
+  name: Xabi
+  picture: /local/XABI.png
+  track: true
+  vendor: Apple, Inc.
+
+ipad:
+  hide_if_away: false
+  icon: mdi:tablet-ipad
+  mac: 40:30:04:30:1F:8E
+  name: iPad Papa
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+ipaddejavier:
+  hide_if_away: false
+  icon: mdi:tablet-ipad
+  mac: EC:AD:B8:6B:25:AE
+  name: iPad Xabi
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+ipaddemernandez:
+  hide_if_away: false
+  icon: mdi:tablet-ipad
+  mac: D0:4F:7E:79:5A:4B
+  name: iPad Mama
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+iphone:
+  hide_if_away: false
+  icon: mdi:cellphone-iphone
+  mac: B0:CA:68:79:61:40
+  name: Mama
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+applewamantonia:
+  hide_if_away: false
+  icon: mdi:watch-variant
+  mac: EC:AD:B8:0E:FD:63
+  name: Watch Mama
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+chromecast:
+  hide_if_away: false
+  icon:
+  mac: 54:60:09:4B:01:66
+  name: Chromecast Mama
+  picture:
+  track: false
+  vendor: Google, Inc.
+
+imacdemernandez:
+  hide_if_away: false
+  icon: mdi:desktop-mac
+  mac: 00:26:BB:4C:9B:E2
+  name: iMacdeMernandez
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+ilocz1718004u:
+  hide_if_away: false
+  icon:
+  mac: 00:FD:45:FD:5D:72
+  name: ILOCZ1718004U
+  picture:
+  track: false
+  vendor: Hewlett Packard Enterprise
+
+0403d6098b81:
+  hide_if_away: false
+  icon: mdi:nintendo-switch
+  mac: 04:03:D6:09:8B:81
+  name: Nintendo Switch
+  picture:
+  track: false
+  vendor: Nintendo Co.,Ltd
+
+10ae602ce789:
+  hide_if_away: false
+  icon:
+  mac: 10:AE:60:2C:E7:89
+  name: 10ae602ce789
+  picture:
+  track: false
+  vendor: Private
+
+lumigatewayv3_miio78330963:
+  hide_if_away: false
+  icon:
+  mac: 78:11:DC:B0:67:F9
+  name: Xiaomi-gateway-v3
+  picture:
+  track: false
+  vendor: XIAOMI Electronics,CO.,LTD
+
+eduardosipad:
+  hide_if_away: false
+  icon: mdi:tablet-ipad
+  mac: B4:9C:DF:B5:15:2C
+  name: iPad Edu
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+edusiphone:
+  hide_if_away: false
+  icon: mdi:cellphone-iphone
+  mac: 48:E9:F1:F4:0A:26
+  name: Edu's iPhone
+  picture:
+  track: false
+  vendor: unknown
+
+iphone_2:
+  hide_if_away: false
+  icon: mdi:cellphone-iphone
+  mac: B0:CA:68:73:DE:21
+  name: iPhone Edu
+  picture:
+  track: true
+  vendor: Apple, Inc.
