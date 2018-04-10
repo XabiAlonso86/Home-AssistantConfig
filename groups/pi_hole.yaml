@@ -1,0 +1,13 @@
+# Grupo Pi Hole
+pi_hole:
+  name: Pi Hole
+  entities:
+    - sensor.ads_blocked_today
+    - sensor.ads_percentage_today
+    - sensor.dns_queries_today
+    - sensor.domains_being_blocked
+    - sensor.ads_blocked_today
+    - sensor.unique_domains
+    - sensor.queries_forwarded
+    - sensor.queries_cached
+    - sensor.pi_hole_version

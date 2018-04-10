@@ -1,0 +1,20 @@
+# Grupo Tiempo
+weather:
+  name: Tiempo
+  entities:
+    - sensor.yr_symbol
+    - sun.sun
+    - sensor.yr_temperature
+    - sensor.yr_precipitation
+    - sensor.yr_wind_speed
+    - sensor.yr_wind_direction
+    - sensor.yr_humidity
+    - sensor.yr_cloudiness
+    
+# Grupo Internet con informacion Pi Hole y Conexion
+g_internet:
+  name: Internet
+  view: yes
+  entities:
+    - group.speedtest
+    - group.pi_hole
