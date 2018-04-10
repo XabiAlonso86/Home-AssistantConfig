@@ -35,3 +35,4 @@ g_internet:
     - group.speedtest
     - group.Pi_Hole
     - sun.sun
+    - sensor.yr_symbol
