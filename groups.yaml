@@ -27,15 +27,6 @@ people:
     - device_tracker.iphone
     - device_tracker.iphoneddemetrio
     - device_tracker.iphone2
-# Grupo Internet con informacion Pi Hole y Conexion
-g_internet:
-  name: Internet
-  view: yes
-  entities:
-    - group.speedtest
-    - group.pi_hole
-    - sun.sun
-    - sensor.yr_symbol
 
 # Grupo Pi Hole
 pi_hole:
@@ -51,3 +42,13 @@ pi_hole:
     - sensor.queries_cached
     - sensor.pi_hole_version
     - script.pihole_update
+    
+# Grupo Internet con informacion Pi Hole y Conexion
+g_internet:
+  name: Internet
+  view: yes
+  entities:
+    - group.speedtest
+    - group.pi_hole
+    - sun.sun
+    - sensor.yr_symbol
