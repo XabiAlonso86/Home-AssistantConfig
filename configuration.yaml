@@ -83,8 +83,8 @@ device_tracker:
     host: freaksecurity.duckdns.org
     username: !secret asuswrt_user
     password: !secret asuswrt_pass
-    interval_seconds: 20
-    consider_home: 180
+    interval_seconds: 60
+    consider_home: 300
     track_new_devices: yes
     port: 2223
 
