@@ -46,7 +46,8 @@ homeassistant:
       hidden: true
 
 group:
-  Pi Hole:
+  Pi_Hole:
+    name: My Pi Hole
     entities:
       - sensor.ads_blocked_today
       - sensor.ads_percentage_today

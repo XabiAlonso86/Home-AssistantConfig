@@ -1,11 +1,3 @@
-pihole:
-  name: Pi-Hole
-  entities:
-    - switch.pihole_switch
-    - sensor.pihole_ads_percentage_blocked_today
-    - sensor.pihole_ads_blocked_today
-    - sensor.pihole_dns_queries_today
-
 # Grupo Tiempo
 weather:
   name: Tiempo
@@ -35,3 +27,11 @@ people:
     - device_tracker.iphone
     - device_tracker.iphoneddemetrio
     - device_tracker.edusiphone
+# Grupo Internet con informacion Pi Hole y Conexion
+g_internet:
+  name: Internet
+  view: yes
+  entities:
+    - group.speedtest
+    - group.Pi_Hole
+    - sun.sun
