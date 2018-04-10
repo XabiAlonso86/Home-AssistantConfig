@@ -1,0 +1,25 @@
+sensor:
+  # Camino al trabajo desde casa
+  - platform: google_travel_time
+    name: Casa - Trabajo
+    api_key: !secret google_travel_api_key
+    origin: ChIJObLUgFJJQg0Ry5Mr9KaJSPU
+    destination: ChIJNzAUH5cpQg0RiseT1FrnHV8
+  # Camino al gym desde casa
+  - platform: google_travel_time
+    name: Casa - Gym
+    api_key: !secret google_travel_api_key
+    origin: ChIJObLUgFJJQg0Ry5Mr9KaJSPU
+    destination: ChIJwYlB2G1NQg0RsDzjq-TtmsE
+  # Camino al trabajo desde movil
+  - platform: google_travel_time
+    name: Xabi - Trabajo
+    api_key: !secret google_travel_api_key
+    origin: device_tracker.xabisiphone
+    destination: ChIJNzAUH5cpQg0RiseT1FrnHV8
+  # Camino al gym desde movil
+  - platform: google_travel_time
+    name: Xabi - Gym
+    api_key: !secret google_travel_api_key
+    origin: device_tracker.xabisiphone
+    destination: ChIJwYlB2G1NQg0RsDzjq-TtmsE
