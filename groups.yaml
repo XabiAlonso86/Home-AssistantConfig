@@ -26,7 +26,7 @@ people:
     - device_tracker.xabisiphone
     - device_tracker.iphone
     - device_tracker.iphoneddemetrio
-    - device_tracker.edusiphone
+    - device_tracker.iphone2
 # Grupo Internet con informacion Pi Hole y Conexion
 g_internet:
   name: Internet
