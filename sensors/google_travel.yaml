@@ -5,6 +5,8 @@ sensor:
     api_key: !secret google_travel_api_key
     origin: ChIJObLUgFJJQg0Ry5Mr9KaJSPU
     destination: ChIJNzAUH5cpQg0RiseT1FrnHV8
+    options:
+      mode: transit
   # Camino al gym desde casa
   - platform: google_travel_time
     name: Casa - Gym
@@ -17,6 +19,8 @@ sensor:
     api_key: !secret google_travel_api_key
     origin: device_tracker.xabisiphone
     destination: ChIJNzAUH5cpQg0RiseT1FrnHV8
+    options:
+      mode: transit
   # Camino al gym desde movil
   - platform: google_travel_time
     name: Xabi - Gym

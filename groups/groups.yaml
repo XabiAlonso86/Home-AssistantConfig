@@ -28,7 +28,8 @@ v_pasillo:
   name: Pasillo
   view: yes
   entities:
-    - sensor.lumigatewayv3_miio78330963
+    - light.gateway_light_7811dcb067f9
+    - sensor.illumination_7811dcb067f9
 # Vista Salon
 v_salon:
   name: Salon
