@@ -33,6 +33,6 @@ g_internet:
   view: yes
   entities:
     - group.speedtest
-    - group.Pi_Hole
+    - group.pi_hole
     - sun.sun
     - sensor.yr_symbol
