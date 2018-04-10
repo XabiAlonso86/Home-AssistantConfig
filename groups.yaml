@@ -30,7 +30,7 @@ people:
 
 # Grupo Pi Hole
 pi_hole:
-  name: My Pi Hole 2
+  name: Pi Hole
   entities:
     - sensor.ads_blocked_today
     - sensor.ads_percentage_today
@@ -42,7 +42,7 @@ pi_hole:
     - sensor.queries_cached
     - sensor.pi_hole_version
     - script.pihole_update
-    
+
 # Grupo Internet con informacion Pi Hole y Conexion
 g_internet:
   name: Internet
