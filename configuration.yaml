@@ -75,7 +75,7 @@ automation: !include automations.yaml
 script: !include scripts.yaml
 panel_iframe: !include panels.yaml
 sensor: !include_dir_merge_list sensors
-group: !include_dir_merge_list groups
+group: !include_dir_merge_named groups
 
 # Configuracion Device Tracker con Router Asus
 device_tracker:
