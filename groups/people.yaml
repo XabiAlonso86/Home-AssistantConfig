@@ -1,6 +1,6 @@
 # Grupo para presencia gente
 people:
-  name: Gente
+  name: Family
   entities:
     - device_tracker.xabisiphone
     - device_tracker.iphone
