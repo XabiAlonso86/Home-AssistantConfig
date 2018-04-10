@@ -1,7 +1,41 @@
-# Grupo Internet con informacion Pi Hole y Conexion
-g_internet:
+# Vista Internet con informacion Pi Hole y Conexion
+v_internet:
   name: Internet
   view: yes
   entities:
     - group.speedtest
     - group.pi_hole
+# Vista Habitacion Javi
+v_javi:
+  name: Habitacion Javi
+  view: yes
+  entities:
+    - light.yeelight_rgb_7811dc6b7258
+# Vista Cuarto Estar
+v_cuartoestar:
+  name: Cuarto de Estar
+  view: yes
+  entities:
+    - media_player.apple_tv
+    - remote.apple_tv
+# Vista Habitacion Edu
+v_edu:
+  name: Habitacion Edu
+  view: yes
+  entities:
+# Vista Pasillo
+v_pasillo:
+  name: Pasillo
+  view: yes
+  entities:
+    - sensor.lumigatewayv3_miio78330963
+# Vista Salon
+v_salon:
+  name: Salon
+  view: yes
+  entities:
+# Vista Padres
+v_padres:
+  name: Habitacion Padres
+  view: yes
+  entities:
